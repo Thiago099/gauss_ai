@@ -6,11 +6,11 @@ it is powered by gauss elimination, that solves the following type of equations,
 that happens to be the equation for a single layer neural network
 
 x1 * W1 + x2 * W2 + 1 * B = y1
-x1 * W1 + x2 * W2 + 1 * B = y2
-y1 * W1 + y2 * W2 + 1 * B = y3
 
 
-it tactually have some hacks that i used to make it able to do multiplication as well
+it actually have some hacks that i used to make it able to do multiplication as well
+
+x1 * W1 + x2 * W2 + 1 + x1 * x1 * w3 + x1 * x2 + w4 * B = y1
 
 here is a example:
 
