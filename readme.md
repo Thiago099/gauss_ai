@@ -7,8 +7,7 @@ that happens to be the equation for a single layer neural network
 
 x1 * W1 + x2 * W2 + 1 * B = y1
 
-
-it actually have some hacks that i used to make it able to do multiplication as well
+the problem solved by this network ended up been like this:
 
 x1 * W1 + x2 * W2 + 1 + x1 * x1 * w3 + x1 * x2 + w4 * B = y1
 
