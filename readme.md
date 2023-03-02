@@ -1,4 +1,4 @@
-#Gauss ai
+# Gauss ai
 
 this is a single layer neural network that can solve a variety of math problems.
 
